@@ -34,6 +34,6 @@ def move(board,index,player="X")
 end
 
 def turn
-puts "Please enter 1-9:"
+print "Please enter 1-9:"
 input_to_index
 end
