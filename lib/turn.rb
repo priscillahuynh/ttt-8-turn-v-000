@@ -2,10 +2,10 @@ board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 
 def display_board(board)
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-  puts " X | O | X "
+  puts " X | X | X "
   puts "-----------"
-  puts " O | X | X "
+  puts " X | O | O "
   puts "-----------"
-  puts " O | X | O "
+  puts " X | O | O "
 end
 display_board(board)
