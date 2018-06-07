@@ -4,8 +4,8 @@ def display_board(board)
 board=["   ","   ","   ","   ","   ","   ","   ","   ","   "]
   puts " X | X | X "
   puts "-----------"
-  puts " X | O | O "
+  puts "   | X |   "
   puts "-----------"
-  puts " X | O | O "
+  puts "   | O | O "
 end
 display_board(board)
